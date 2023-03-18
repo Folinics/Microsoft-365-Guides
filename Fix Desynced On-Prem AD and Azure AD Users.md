@@ -42,7 +42,7 @@ For our example, let's say it outputs the following:
 #### ⚠️ Warning ⚠️
 ##### The following commands are dangerous. Exercise caution.
 
-There are 2 different scenarios.
+There are 2 different scenarios.  
 5. 1, if the output of the previous command shows an Azure AD user that is not in use (in other words, is the duplicate user), and, you have no need for it, delete it with the following commands. Note you will be prompted to confirm the changes.
 ```PowerShell
 # 1. Delete user
