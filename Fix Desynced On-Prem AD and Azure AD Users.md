@@ -19,7 +19,7 @@ Install-Module -Name AZ
 ```
 
 #### Resolution Steps
-1. Connect to Azure Online. This will open a new window, prompting for credentials. This user will need to be an Azure AD.
+1. Connect to Azure Online. This will open a new window, prompting for credentials. This user will need to be an Azure AD / Exchange admin.
 ```PowerShell
 Connect-MsolService
 ```
@@ -71,6 +71,6 @@ This will link the existing JohnDoe@YourDomain.com user in Azure AD to John@Your
 The bulk of this guide is from https://aidenwebb.com/posts/how-to-hard-link-azure-ad-connect-on-prem-users-to-azure-ad-office-365-accounts/, but with corrections and improvements.  
 
 #### Other Resources  
-http://terenceluk.blogspot.com/2020/10/attempting-to-set-immutableid-for-user.html
+http://terenceluk.blogspot.com/2020/10/attempting-to-set-immutableid-for-user.html  
 https://learn.microsoft.com/en-us/powershell/module/msonline/connect-msolservice?view=azureadps-1.0  
 https://learn.microsoft.com/en-us/powershell/module/msonline/?view=azureadps-1.0
